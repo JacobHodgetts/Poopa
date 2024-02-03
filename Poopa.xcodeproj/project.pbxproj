@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168EFEE72B6EB3C500D1D13A /* PoopaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFEE62B6EB3C500D1D13A /* PoopaApp.swift */; };
+		168EFEE92B6EB3C500D1D13A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFEE82B6EB3C500D1D13A /* ContentView.swift */; };
+		168EFEEB2B6EB3C500D1D13A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFEEA2B6EB3C500D1D13A /* Item.swift */; };
+		168EFEED2B6EB3C700D1D13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168EFEEC2B6EB3C700D1D13A /* Assets.xcassets */; };
+		168EFEF02B6EB3C700D1D13A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168EFEEF2B6EB3C700D1D13A /* Preview Assets.xcassets */; };
+		168EFEFA2B6EB3C700D1D13A /* PoopaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFEF92B6EB3C700D1D13A /* PoopaTests.swift */; };
+		168EFF042B6EB3C700D1D13A /* PoopaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFF032B6EB3C700D1D13A /* PoopaUITests.swift */; };
+		168EFF062B6EB3C700D1D13A /* PoopaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168EFF052B6EB3C700D1D13A /* PoopaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168EFEF62B6EB3C700D1D13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168EFEDB2B6EB3C500D1D13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168EFEE22B6EB3C500D1D13A;
+			remoteInfo = Poopa;
+		};
+		168EFF002B6EB3C700D1D13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168EFEDB2B6EB3C500D1D13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168EFEE22B6EB3C500D1D13A;
+			remoteInfo = Poopa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168EFEE32B6EB3C500D1D13A /* Poopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168EFEE62B6EB3C500D1D13A /* PoopaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopaApp.swift; sourceTree = "<group>"; };
+		168EFEE82B6EB3C500D1D13A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		168EFEEA2B6EB3C500D1D13A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		168EFEEC2B6EB3C700D1D13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168EFEEF2B6EB3C700D1D13A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		168EFEF52B6EB3C700D1D13A /* PoopaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168EFEF92B6EB3C700D1D13A /* PoopaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopaTests.swift; sourceTree = "<group>"; };
+		168EFEFF2B6EB3C700D1D13A /* PoopaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168EFF032B6EB3C700D1D13A /* PoopaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopaUITests.swift; sourceTree = "<group>"; };
+		168EFF052B6EB3C700D1D13A /* PoopaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168EFEE02B6EB3C500D1D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEF22B6EB3C700D1D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEFC2B6EB3C700D1D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168EFEDA2B6EB3C500D1D13A = {
+			isa = PBXGroup;
+			children = (
+				168EFEE52B6EB3C500D1D13A /* Poopa */,
+				168EFEF82B6EB3C700D1D13A /* PoopaTests */,
+				168EFF022B6EB3C700D1D13A /* PoopaUITests */,
+				168EFEE42B6EB3C500D1D13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168EFEE42B6EB3C500D1D13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168EFEE32B6EB3C500D1D13A /* Poopa.app */,
+				168EFEF52B6EB3C700D1D13A /* PoopaTests.xctest */,
+				168EFEFF2B6EB3C700D1D13A /* PoopaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168EFEE52B6EB3C500D1D13A /* Poopa */ = {
+			isa = PBXGroup;
+			children = (
+				168EFEE62B6EB3C500D1D13A /* PoopaApp.swift */,
+				168EFEE82B6EB3C500D1D13A /* ContentView.swift */,
+				168EFEEA2B6EB3C500D1D13A /* Item.swift */,
+				168EFEEC2B6EB3C700D1D13A /* Assets.xcassets */,
+				168EFEEE2B6EB3C700D1D13A /* Preview Content */,
+			);
+			path = Poopa;
+			sourceTree = "<group>";
+		};
+		168EFEEE2B6EB3C700D1D13A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				168EFEEF2B6EB3C700D1D13A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		168EFEF82B6EB3C700D1D13A /* PoopaTests */ = {
+			isa = PBXGroup;
+			children = (
+				168EFEF92B6EB3C700D1D13A /* PoopaTests.swift */,
+			);
+			path = PoopaTests;
+			sourceTree = "<group>";
+		};
+		168EFF022B6EB3C700D1D13A /* PoopaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168EFF032B6EB3C700D1D13A /* PoopaUITests.swift */,
+				168EFF052B6EB3C700D1D13A /* PoopaUITestsLaunchTests.swift */,
+			);
+			path = PoopaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168EFEE22B6EB3C500D1D13A /* Poopa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168EFF092B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "Poopa" */;
+			buildPhases = (
+				168EFEDF2B6EB3C500D1D13A /* Sources */,
+				168EFEE02B6EB3C500D1D13A /* Frameworks */,
+				168EFEE12B6EB3C500D1D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poopa;
+			productName = Poopa;
+			productReference = 168EFEE32B6EB3C500D1D13A /* Poopa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168EFEF42B6EB3C700D1D13A /* PoopaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168EFF0C2B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "PoopaTests" */;
+			buildPhases = (
+				168EFEF12B6EB3C700D1D13A /* Sources */,
+				168EFEF22B6EB3C700D1D13A /* Frameworks */,
+				168EFEF32B6EB3C700D1D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168EFEF72B6EB3C700D1D13A /* PBXTargetDependency */,
+			);
+			name = PoopaTests;
+			productName = PoopaTests;
+			productReference = 168EFEF52B6EB3C700D1D13A /* PoopaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168EFEFE2B6EB3C700D1D13A /* PoopaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168EFF0F2B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "PoopaUITests" */;
+			buildPhases = (
+				168EFEFB2B6EB3C700D1D13A /* Sources */,
+				168EFEFC2B6EB3C700D1D13A /* Frameworks */,
+				168EFEFD2B6EB3C700D1D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168EFF012B6EB3C700D1D13A /* PBXTargetDependency */,
+			);
+			name = PoopaUITests;
+			productName = PoopaUITests;
+			productReference = 168EFEFF2B6EB3C700D1D13A /* PoopaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168EFEDB2B6EB3C500D1D13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					168EFEE22B6EB3C500D1D13A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					168EFEF42B6EB3C700D1D13A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 168EFEE22B6EB3C500D1D13A;
+					};
+					168EFEFE2B6EB3C700D1D13A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 168EFEE22B6EB3C500D1D13A;
+					};
+				};
+			};
+			buildConfigurationList = 168EFEDE2B6EB3C500D1D13A /* Build configuration list for PBXProject "Poopa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168EFEDA2B6EB3C500D1D13A;
+			productRefGroup = 168EFEE42B6EB3C500D1D13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168EFEE22B6EB3C500D1D13A /* Poopa */,
+				168EFEF42B6EB3C700D1D13A /* PoopaTests */,
+				168EFEFE2B6EB3C700D1D13A /* PoopaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168EFEE12B6EB3C500D1D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168EFEF02B6EB3C700D1D13A /* Preview Assets.xcassets in Resources */,
+				168EFEED2B6EB3C700D1D13A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEF32B6EB3C700D1D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEFD2B6EB3C700D1D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168EFEDF2B6EB3C500D1D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168EFEE92B6EB3C500D1D13A /* ContentView.swift in Sources */,
+				168EFEEB2B6EB3C500D1D13A /* Item.swift in Sources */,
+				168EFEE72B6EB3C500D1D13A /* PoopaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEF12B6EB3C700D1D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168EFEFA2B6EB3C700D1D13A /* PoopaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168EFEFB2B6EB3C700D1D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168EFF062B6EB3C700D1D13A /* PoopaUITestsLaunchTests.swift in Sources */,
+				168EFF042B6EB3C700D1D13A /* PoopaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168EFEF72B6EB3C700D1D13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168EFEE22B6EB3C500D1D13A /* Poopa */;
+			targetProxy = 168EFEF62B6EB3C700D1D13A /* PBXContainerItemProxy */;
+		};
+		168EFF012B6EB3C700D1D13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168EFEE22B6EB3C500D1D13A /* Poopa */;
+			targetProxy = 168EFF002B6EB3C700D1D13A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		168EFF072B6EB3C700D1D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		168EFF082B6EB3C700D1D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168EFF0A2B6EB3C700D1D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poopa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Poopa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168EFF0B2B6EB3C700D1D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poopa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Poopa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		168EFF0D2B6EB3C700D1D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PoopaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poopa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poopa";
+			};
+			name = Debug;
+		};
+		168EFF0E2B6EB3C700D1D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PoopaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poopa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poopa";
+			};
+			name = Release;
+		};
+		168EFF102B6EB3C700D1D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PoopaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poopa;
+			};
+			name = Debug;
+		};
+		168EFF112B6EB3C700D1D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PoopaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poopa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168EFEDE2B6EB3C500D1D13A /* Build configuration list for PBXProject "Poopa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168EFF072B6EB3C700D1D13A /* Debug */,
+				168EFF082B6EB3C700D1D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168EFF092B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "Poopa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168EFF0A2B6EB3C700D1D13A /* Debug */,
+				168EFF0B2B6EB3C700D1D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168EFF0C2B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "PoopaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168EFF0D2B6EB3C700D1D13A /* Debug */,
+				168EFF0E2B6EB3C700D1D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168EFF0F2B6EB3C700D1D13A /* Build configuration list for PBXNativeTarget "PoopaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168EFF102B6EB3C700D1D13A /* Debug */,
+				168EFF112B6EB3C700D1D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168EFEDB2B6EB3C500D1D13A /* Project object */;
+}
